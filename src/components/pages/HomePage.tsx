@@ -167,7 +167,6 @@ function OpeningSection({ onNext }: { onNext: () => void }) {
         <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-secondary/30 to-transparent" />
         <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-gradient-to-t from-accent-lavender/20 to-transparent rounded-tr-[100px]" />
       </div>
-
       <div className="container relative z-10 max-w-[100rem] mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Text Content */}
         <div className="lg:col-span-5 flex flex-col items-start text-left space-y-8">
@@ -176,13 +175,8 @@ function OpeningSection({ onNext }: { onNext: () => void }) {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3, duration: 1 }}
           >
-            <span className="inline-block py-1 px-3 rounded-full bg-secondary text-deep-muted text-sm font-semibold tracking-wider uppercase mb-4">
-              A Digital Love Letter
-            </span>
-            <h1 className="font-heading text-6xl md:text-7xl lg:text-8xl leading-[0.9] text-foreground mb-6">
-              For Someone <br />
-              <span className="italic text-primary/80">Truly Special</span>
-            </h1>
+            <span className="inline-block py-1 px-3 rounded-full bg-secondary text-deep-muted text-sm font-semibold tracking-wider uppercase mb-4">Aer</span>
+            <h1 className="font-heading text-6xl md:text-7xl lg:text-8xl leading-[0.9] text-foreground mb-6">For You</h1>
             <div className="h-px w-24 bg-foreground/20 mb-6" />
             <p className="font-paragraph text-lg md:text-xl text-deep-muted leading-relaxed max-w-md">
               Aap ke liye kuch khaas banaya hai. Ek chhoti si digital love letter, 
