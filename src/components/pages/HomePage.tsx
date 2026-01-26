@@ -198,7 +198,7 @@ function OpeningSection({ onNext }: { onNext: () => void }) {
               className="group relative overflow-hidden rounded-full bg-foreground text-background px-10 py-8 text-lg transition-all hover:bg-foreground/90 hover:scale-105"
             >
               <span className="relative z-10 flex items-center gap-3">
-                Shuru Karein <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                wanna start? <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
             </Button>
           </motion.div>
