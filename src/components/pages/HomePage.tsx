@@ -20,7 +20,7 @@ interface SectionProps {
 
 const GrainOverlay = () => (
   <div className="fixed inset-0 pointer-events-none z-50 opacity-[0.03] mix-blend-multiply">
-    <div className="absolute inset-0 bg-repeat w-full h-full" style={{ backgroundImage: 'url("https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=1")' }}></div>
+    <div className="absolute inset-0 bg-repeat w-full h-full" style={{ backgroundImage: 'url("https://static.wixstatic.com/media/5adf54_c9d834326f934a80baa7da1aeb38cc1c~mv2.png?originWidth=1920&originHeight=1024")' }}></div>
   </div>
 );
 
@@ -217,7 +217,7 @@ function OpeningSection({ onNext }: { onNext: () => void }) {
              {/* Main Hero Image */}
             <div className="absolute inset-0 rounded-[2rem] overflow-hidden shadow-2xl">
                <Image 
-                 src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=2" 
+                 src="https://static.wixstatic.com/media/5adf54_0584a39dc1a44b14be6d69c3d32a911e~mv2.png?originWidth=1280&originHeight=704" 
                  alt="Soft romantic atmosphere" 
                  className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-[2s]"
                />
@@ -232,7 +232,7 @@ function OpeningSection({ onNext }: { onNext: () => void }) {
             >
                <div className="w-full h-full rounded-full overflow-hidden border-4 border-secondary">
                  <Image 
-                   src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=3" 
+                   src="https://static.wixstatic.com/media/5adf54_31f8bf259e3b46f6ac4f2b22a1ea22b8~mv2.png?originWidth=1280&originHeight=704" 
                    alt="Detail texture" 
                    className="w-full h-full object-cover"
                  />
@@ -569,7 +569,7 @@ function CelebrationSection() {
           className="relative h-[50vh] lg:h-[70vh] w-full rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white"
         >
           <Image 
-            src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=4" 
+            src="https://static.wixstatic.com/media/5adf54_19c2625c2b9848da9a0643ee53d3fe26~mv2.png?originWidth=1152&originHeight=640" 
             alt="Celebration of love" 
             className="w-full h-full object-cover"
           />
