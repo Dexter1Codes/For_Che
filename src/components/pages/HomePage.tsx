@@ -184,8 +184,7 @@ function OpeningSection({ onNext }: { onNext: () => void }) {
             </h1>
             <div className="h-px w-24 bg-foreground/20 mb-6" />
             <p className="font-paragraph text-lg md:text-xl text-deep-muted leading-relaxed max-w-md">
-              Aap ke liye kuch khaas banaya hai. Ek chhoti si digital love letter, 
-              jo dil se likhi gayi hai. Thoda waqt dijiye, aur isse mehsoos kijiye.
+              I've made something not so crazily special but yeah something that will surely add a smile to your face
             </p>
           </motion.div>
 
