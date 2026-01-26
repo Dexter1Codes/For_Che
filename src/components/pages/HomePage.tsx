@@ -180,8 +180,7 @@ function OpeningSection({ onNext }: { onNext: () => void }) {
               A little something
             </span>
             <h1 className="font-heading text-6xl md:text-7xl lg:text-8xl leading-[0.9] text-foreground mb-6">
-              For Someone <br />
-              <span className="italic text-primary/80">Truly Special</span>
+              For You
             </h1>
             <div className="h-px w-24 bg-foreground/20 mb-6" />
             <p className="font-paragraph text-lg md:text-xl text-deep-muted leading-relaxed max-w-md">
