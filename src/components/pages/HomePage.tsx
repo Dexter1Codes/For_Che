@@ -261,7 +261,6 @@ function PlayfulSection({ onNext }: { onNext: (ans: string) => void }) {
     >
       {/* Decorative Background */}
       <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-background to-transparent" />
-      
       <div className="max-w-4xl w-full mx-auto relative z-10">
         <AnimatePresence mode="wait">
           {!hasAnswered ? (
@@ -279,29 +278,23 @@ function PlayfulSection({ onNext }: { onNext: (ans: string) => void }) {
                 </div>
               </div>
               
-              <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-8">
-                Ek Chhota Sa Sawal
-              </h2>
+              <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-8">A lil Question for Ya</h2>
               
               <p className="font-paragraph text-xl md:text-2xl text-deep-muted mb-12 leading-relaxed max-w-2xl mx-auto">
                 Aap mujhe kabhi kabhi pyaar se <span className="font-bold text-primary">"bandar"</span> bulate hain... 
                 <br className="hidden md:block" />
-                <span className="italic mt-2 block text-foreground">Kya aap sochte hain main cute bandar hoon?</span>
+                <span className="italic mt-2 block text-foreground">Do You Think I'm a cute one?</span>
               </p>
 
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                 <Button
                   onClick={() => handleAnswer('yes')}
                   className="min-w-[200px] bg-accent-blush text-foreground hover:bg-accent-blush/80 rounded-full px-8 py-6 text-lg font-paragraph font-semibold transition-all hover:-translate-y-1 shadow-sm"
-                >
-                  Haan, bilkul
-                </Button>
+                >Yup,Sure</Button>
                 <Button
                   onClick={() => handleAnswer('very')}
                   className="min-w-[200px] bg-accent-lavender text-foreground hover:bg-accent-lavender/80 rounded-full px-8 py-6 text-lg font-paragraph font-semibold transition-all hover:-translate-y-1 shadow-sm"
-                >
-                  Bahut cute
-                </Button>
+                >ExtraCutieee</Button>
               </div>
             </motion.div>
           ) : (
