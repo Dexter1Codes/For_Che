@@ -277,14 +277,8 @@ function PlayfulSection({ onNext }: { onNext: (ans: string) => void }) {
                   <Stars className="w-8 h-8 text-primary" />
                 </div>
               </div>
-              
               <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-8">A lil Question for Ya</h2>
-              
-              <p className="font-paragraph text-xl md:text-2xl text-deep-muted mb-12 leading-relaxed max-w-2xl mx-auto">
-                Aap mujhe kabhi kabhi pyaar se <span className="font-bold text-primary">"bandar"</span> bulate hain... 
-                <br className="hidden md:block" />
-                <span className="italic mt-2 block text-foreground">Do You Think I'm a cute one?</span>
-              </p>
+              <p className="font-paragraph text-xl md:text-2xl text-deep-muted mb-12 leading-relaxed">You call me a "Bandar" all the time, Am i a cute one?</p>
 
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                 <Button
