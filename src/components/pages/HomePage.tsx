@@ -530,8 +530,7 @@ function CelebrationSection() {
           </h2>
           <div className="h-1 w-32 bg-secondary mx-auto lg:mx-0 mb-8" />
           <p className="font-paragraph text-xl md:text-2xl text-deep-muted leading-relaxed max-w-xl mx-auto lg:mx-0">
-            Aap mere liye bahut khaas hain. Har din aap ke saath special hai, 
-            lekin aaj ka din aur bhi zyada special hai.
+              My way of asking you to be my Valentine.
           </p>
           <motion.div
             initial={{ opacity: 0 }}
