@@ -383,11 +383,11 @@ function AffectionSection({
                   </div>
                 )}
               <div className="relative z-10">
-                  <Sparkles className="w-6 h-6 text-primary/60 mb-6" />
                   <p className="font-paragraph text-xl md:text-2xl text-foreground leading-relaxed">
                   "{msg.messageText}"
                 </p>
-                </div>
+                <Sparkles className="w-6 h-6 text-primary/60 mb-6" />
+                  </div>
                 
                 </div>
             </motion.div>
@@ -402,13 +402,11 @@ function AffectionSection({
             transition={{ delay: 1, duration: 0.8 }}
             className="mt-24 text-center"
           >
-            <p className="font-paragraph text-deep-muted mb-8 text-lg">Aur ab, ek aakhri baat...</p>
+            <p className="font-paragraph text-deep-muted mb-8 text-lg">Now one last thing..</p>
             <Button
               onClick={onComplete}
               className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-12 py-6 text-lg font-paragraph font-semibold transition-all hover:scale-105 shadow-lg"
-            >
-              Aage Badhein
-            </Button>
+            >Aage Badhein</Button>
           </motion.div>
         )}
       </div>
