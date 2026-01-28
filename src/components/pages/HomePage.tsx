@@ -184,7 +184,7 @@ function OpeningSection({ onNext }: { onNext: () => void }) {
             </h1>
             <div className="h-px w-24 bg-foreground/20 mb-6" />
             <p className="font-paragraph text-lg md:text-xl text-deep-muted leading-relaxed max-w-md">
-              I've made something not so crazily special but yeah something that will surely add a smile to your face
+              I've made something not so crazily special but yeah something that will surely add a smile to your face.
             </p>
           </motion.div>
 
@@ -198,7 +198,7 @@ function OpeningSection({ onNext }: { onNext: () => void }) {
               className="group relative overflow-hidden rounded-full bg-foreground text-background px-10 py-8 text-lg transition-all hover:bg-foreground/90 hover:scale-105"
             >
               <span className="relative z-10 flex items-center gap-3">
-                wanna start? <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                Lets begin? <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
             </Button>
           </motion.div>
@@ -306,10 +306,10 @@ function PlayfulSection({ onNext }: { onNext: (ans: string) => void }) {
                 <Heart className="w-24 h-24 text-primary fill-primary mx-auto mb-8 drop-shadow-lg" />
               </motion.div>
               <h3 className="font-heading text-5xl md:text-6xl text-foreground">
-                Shukriya ❤️
+                Thank Youuu❤️
               </h3>
               <p className="font-paragraph text-xl text-deep-muted mt-4">
-                Dil khush kar diya aapne...
+                look at me, I will surely have a smile :)
               </p>
             </motion.div>
           )}
@@ -358,7 +358,7 @@ function AffectionSection({
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-20"
         >
-          <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-4">Some Things that i want to say</h2>
+          <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-4">A few things that i want You to know</h2>
           <div className="h-1 w-20 bg-primary/30 mx-auto rounded-full" />
         </motion.div>
 
@@ -406,7 +406,7 @@ function AffectionSection({
             <Button
               onClick={onComplete}
               className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-12 py-6 text-lg font-paragraph font-semibold transition-all hover:scale-105 shadow-lg"
-            >Aage Badhein</Button>
+            >Lets move ahead?</Button>
           </motion.div>
         )}
       </div>
@@ -452,8 +452,8 @@ function ProposalSection({ onNext }: { onNext: (ans: string) => void }) {
               </motion.div>
 
               <h2 className="font-heading text-6xl md:text-7xl lg:text-8xl text-foreground mb-12 tracking-tight">
-                Kya aap meri <br />
-                <span className="text-primary italic">Valentine</span> banogi?
+                Will you be my <br />
+                <span className="text-primary italic">Valentine</span>?
               </h2>
 
               <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-16">
@@ -467,13 +467,13 @@ function ProposalSection({ onNext }: { onNext: (ans: string) => void }) {
                   onClick={() => handleAnswer('absolutely')}
                   className="min-w-[220px] bg-accent-lavender text-foreground hover:bg-accent-lavender/90 rounded-full px-10 py-6 text-xl font-paragraph font-semibold transition-all hover:-translate-y-1 shadow-lg hover:shadow-accent-lavender/30"
                 >
-                  Bilkul Haan
+                  Obv, bandarrr..
                 </Button>
                 <Button
                   onClick={() => handleAnswer('ofcourse')}
                   className="min-w-[220px] bg-accent-blush text-foreground hover:bg-accent-blush/90 rounded-full px-10 py-6 text-xl font-paragraph font-semibold transition-all hover:-translate-y-1 shadow-lg hover:shadow-accent-blush/30"
                 >
-                  Zaroor
+                  Sure
                 </Button>
               </div>
             </motion.div>
@@ -486,7 +486,7 @@ function ProposalSection({ onNext }: { onNext: (ans: string) => void }) {
             >
               <Heart className="w-40 h-40 text-primary fill-primary mx-auto mb-8" />
               <h2 className="font-heading text-6xl md:text-7xl text-foreground">
-                Mera Naseeb ❤️
+                My Love ❤️
               </h2>
             </motion.div>
           )}
@@ -526,7 +526,7 @@ function CelebrationSection() {
           <h2 className="font-heading text-7xl md:text-8xl lg:text-9xl text-foreground mb-8 leading-none">
             Happy <br />
             <span className="text-primary">Valentine's</span> <br />
-            Day
+            Day in advance
           </h2>
           <div className="h-1 w-32 bg-secondary mx-auto lg:mx-0 mb-8" />
           <p className="font-paragraph text-xl md:text-2xl text-deep-muted leading-relaxed max-w-xl mx-auto lg:mx-0">
