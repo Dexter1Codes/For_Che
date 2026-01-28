@@ -358,7 +358,7 @@ function AffectionSection({
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-20"
         >
-          <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-4">Kuch Baatein</h2>
+          <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-4">Some Things that i want to say</h2>
           <div className="h-1 w-20 bg-primary/30 mx-auto rounded-full" />
         </motion.div>
 
@@ -375,13 +375,6 @@ function AffectionSection({
                 {/* Subtle background decoration */}
                 <div className="absolute top-0 right-0 w-24 h-24 bg-accent-lavender/20 rounded-bl-[4rem] -mr-4 -mt-4 transition-transform group-hover:scale-110" />
                 
-                <div className="relative z-10">
-                  <Sparkles className="w-6 h-6 text-primary/60 mb-6" />
-                  <p className="font-paragraph text-xl md:text-2xl text-foreground leading-relaxed">
-                    "{msg.messageText}"
-                  </p>
-                </div>
-                
                 {msg.senderName && (
                   <div className="mt-8 pt-6 border-t border-secondary/30">
                     <p className="font-heading text-lg text-deep-muted italic text-right">
@@ -389,7 +382,14 @@ function AffectionSection({
                     </p>
                   </div>
                 )}
-              </div>
+              <div className="relative z-10">
+                  <Sparkles className="w-6 h-6 text-primary/60 mb-6" />
+                  <p className="font-paragraph text-xl md:text-2xl text-foreground leading-relaxed">
+                  "{msg.messageText}"
+                </p>
+                </div>
+                
+                </div>
             </motion.div>
           ))}
         </div>
